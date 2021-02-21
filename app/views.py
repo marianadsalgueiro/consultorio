@@ -8,10 +8,8 @@ from app import app
 def index():
 
 	contact_form = ContactForm()
-	if contact_form.validate() == False:
-		flash('Por favor, preencha todos os campos.')
-		return render_template("index.html", form=contact_form)
-	else:
+
+	if contact_form.validate_on_submit():
 		msg = Message("[SITE RESPONDER]", sender='dramarianaboni@gmail.com', recipients=['dramarianaboni@gmail.com'])
 		msg.body = """
 		From: %s <%s> \n
@@ -20,7 +18,8 @@ def index():
 		try:
 			Mail().send(msg)
 		except Exception as e:
-			flash('Desculpe, houve um problema com a sua mensagem. Por favor, tente nos contatar diretamente pelo email dramarianaboni@gmail.com. Obrigado.')
+			print("ENTREI")
+			flash('Desculpe, houve um problema com a sua mensagem. Por favor, tente nos contatar diretamente pelo email dramarianaboni@gmail.com. Obrigado.', 'danger')
 		return render_template('index.html', form=contact_form)
 
 	return render_template("index.html", form=contact_form)

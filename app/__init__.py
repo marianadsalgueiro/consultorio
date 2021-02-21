@@ -2,6 +2,7 @@ from flask import Flask
 from flask_mail import Message, Mail
 from flask_bootstrap import Bootstrap
 from flask_wtf import CSRFProtect
+import os
 
 # Initialize the app
 app = Flask(__name__, instance_relative_config=True)
@@ -22,8 +23,9 @@ app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 465
 app.config["MAIL_USE_SSL"] = True
 app.config["MAIL_USERNAME"] = "dramarianaboni@gmail.com"
-app.config["MAIL_PASSWORD"] = "mariedu2020"
+app.config["MAIL_PASSWORD"] = os.getenv('EMAIL_PASSWORD')
 mail.init_app(app)
 
+print(os.getenv('EMAIL_PASSWORD'))
 
 bootstrap = Bootstrap(app)
