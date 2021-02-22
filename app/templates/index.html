@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/static/css/grayscale.min.css" rel="stylesheet">
+    <link href="/static/css/css.css" rel="stylesheet">
 
   </head>
 
@@ -38,7 +39,7 @@
               <a class="nav-link js-scroll-trigger" style="font-weight: bold; color:	#54ffe5" href="#projects">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style="font-weight: bold; color:	#54ffe5" href="#promotions">Sneak peek</a>
+              <a class="nav-link js-scroll-trigger" style="font-weight: bold; color:	#54ffe5" href="#promotions">Dê uma espiadinha</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" style="font-weight: bold; color: 	#54ffe5" href="#signup">Contact</a>
@@ -47,13 +48,15 @@
         </div>
       </div>
     </nav>
-
+    
     <!-- Header -->
     <!-- <header class="masthead"> -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           {% include "flash.html" %}
+          <br>
+          <br>
           <br>
           <h2 class="text-white-50 mx-auto mt-2 mb-5" style="font-weight: bold; color: rgba(255, 255, 255) !important;">Bem-vindos ao meu novo espaço</h2>
           <h1 class="mx-auto my-0 text-uppercase">Dra Mariana Boni</h1>
@@ -68,7 +71,7 @@
           <a href="#projects" target="_tab" class="btn btn-primary js-scroll-trigger" style="display: block; width: 30%; margin: 0 auto;">About me</a>
 
           <br>
-          <a href="#promotions" target="_tab" class="btn btn-primary js-scroll-trigger" style="display: block; width: 30%; margin: 0 auto;">Sneak Peek</a>
+          <a href="#promotions" target="_tab" class="btn btn-primary js-scroll-trigger" style="display: block; width: 30%; margin: 0 auto;">Dê uma Espiadinha</a>
           
           <br>
           <a href="#signup" target="_tab" class="btn btn-primary js-scroll-trigger" style="display: block; width: 30%; margin: 0 auto;">Contact</a>
@@ -91,7 +94,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section bg-light" style="padding-bottom: 8%">
+    <section id="projects" class="projects-section bg-light">
       <div class="container">
 
         <!-- Featured Project Row -->
@@ -110,20 +113,45 @@
           </div>
         </div>
 
-        <div id="promotions" class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div style="margin: 0 auto;">
-            <h3 style="text-align: center;">Sneak Peek</h3>
+        <h1 id="promotions" style="text-align: center;">Dê uma Espiadinha!</h1>
+        <br>
+        <br>
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-4 col-lg-3">
+            <h3 style="text-align: center;">Laser</h3>
             <br>
-           <video width="400" height="660" controls src="../static/img/instories_result_AA2D8CEC-BD2E-46E2-9965-34C0660C6CEA.mov"></video>
+            <br>
+            <video width="320" height="550" controls src="../static/img/final_6032db6b8125fc0084fc115b_12286.mp4" style="margin-left: 5%"></video>
+          </div>
+          <div class="col-xl-4 col-lg-3">
+            <h3 style="text-align: center;">Preenchimento</h3>
+            <br>
+            <br>
+            <video width="320" height="550" controls src="../static/img/final_6032ebf6148e4d003dd0f769_87804.mp4" style="margin-left: 8%"></video>
+          </div>
+          <div class="col-xl-4 col-lg-3">
+            <h3 style="text-align: center;">Microagulhamento</h3>
+            <br>
+            <br>
+            <video width="320" height="550" controls src="../static/img/final_603305fb1249090059f5b6fe_987814.mp4" style="margin-left: 10%"></video>
           </div>
         </div>
         <br>
         <br>
-
+        <div id="promotions" class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div style="margin: 0 auto;">
+            <h3 style="text-align: center;">Mais Explicadinho!</h3>
+            <br>
+            <br>
+            <video width="320" height="550" controls src="../static/img/final_603306ba2cbf530102afb535_845475.mp4"></video>
+          </div>
+        </div>
+        <br>
+        <br>
         <!-- Project One Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="/static/img/cuidados-rosto_comlogo.jpg" alt="">
+            <img class="img-fluid" src="/static/img/cuidados-rosto_comlogo.jpeg" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
@@ -141,7 +169,7 @@
         <!-- Project Two Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="/static/img/cuidados-corpo_comlogo.jpg" alt="">
+            <img class="img-fluid" src="/static/img/cuidados-corpo_comlogo.jpeg" alt="">
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
@@ -155,27 +183,45 @@
             </div>
           </div>
         </div>
+
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="/static/img/IMG_4015.jpeg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Atendimento Online</h4>
+                  <p class="mb-0 text-white-50">Para que a distância não nos separe.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <br>
         <br>
         <br>
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-4 col-lg-3 col-sm-12">
-            <h3 style="text-align: center;">Preenchimento Facial</h3>
+          <div class="col-xl-4 col-lg-3">
+            <h3 style="text-align: center;">Depilação a Laser</h3>
+            <h3 style="text-align: center;">Axila</h3>
             <br>
-            <br>
-            <video width="320" height="550" controls src="../static/img/instories_result_8A606753-028B-4695-B498-F2698E9442E9.MOV" style="margin-left: 5%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e17b87f3b0008c6067ad_476101.mp4" style="margin-left: 5%"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Drug Delivery na Dermatologia</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/IMG_3398.mp4" style="margin-left: 8%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032dd15bb4200003d50e43f_892208.mp4" style="margin-left: 8%"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
-            <h3 style="text-align: center;">Tratamento de Estrias</h3>
+            <h3 style="text-align: center;">Estrias Brancas & Rosas</h3>
             <br>
             <br>
-            <video width="320" height="550" controls src="../static/img/IMG_3438.mp4" style="margin-left: 10%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e20b95c4eb008b835356_230325.mp4" style="margin-left: 10%"></video>
           </div>
         </div>
         <br>
@@ -186,19 +232,19 @@
             <h3 style="text-align: center;">Revitalização dos</h3>
             <h3 style="text-align: center;">Lábios a Laser</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/IMG_3841.mp4" style="margin-left: 5%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e292e0ad8d00aa3cd272_68629.mp4" style="margin-left: 5%"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Rejuvenescimento</h3>
             <h3 style="text-align: center;">Colo & Pescoço</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/IMG_3535.mp4" style="margin-left: 8%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e36c7a8c73002fa1691c_686664.mp4" style="margin-left: 8%"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Luz Intensa Pulsada</h3>
             <h3 style="text-align: center;">para Rosácea</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/IMG_3607.mp4" style="margin-left: 10%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e3ec971e6f003d4ffa49_238914.mp4" style="margin-left: 10%"></video>
           </div>
         </div>
 
@@ -210,55 +256,90 @@
             <h3 style="text-align: center;">Rejuvenescimento</h3>
             <h3 style="text-align: center;">das Pálpebras</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/IMG_3620.mp4" style="margin-left: 5%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e48534e6c50029ab3689_491395.mp4" style="margin-left: 5%"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Rejuvenescimento Facial</h3>
             <h3 style="text-align: center;">(mais colágeno)</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/IMG_3507.mp4" style="margin-left: 8%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e5baaa21ea0082b35dc2_310236.mp4" style="margin-left: 8%"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
-            <h3 style="text-align: center;">Preenchimento Facial</h3>
-            <br>
-            <video width="320" height="550" controls src="../static/img/IMG_9513.mp4" style="margin-left: 11%"></video>
+            <h3 style="text-align: center;">Tratamento dos Vasos</h3>
+            <h3 style="text-align: center;">da Face (Rosácea)</h3>
+            <video width="320" height="550" controls src="../static/img/final_6032e6ac2b6fe30072e8c62a_226266.mp4" style="margin-left: 11%"></video>
           </div>
         </div>
 
         <br>
         <br>
-        <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-4 col-lg-3">
-            <h3 style="text-align: center;">Preenchimento Facial</h3>
+            <h3 style="text-align: center;">Microagulhamento</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/IMG_0726.mp4"></video>
+            <br>
+            <video width="320" height="550" controls src="../static/img/final_6032e73aab586b002f6a4eed_735061.mp4" style="margin-left: 5%"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
-            <h3 style="text-align: center;">Preenchimento Facial</h3>
+            <h3 style="text-align: center;">Estrias</h3>
+            <h3 style="text-align: center;">Drug Delivery</h3>
             <br>
-            <!-- <video width="320" height="550" controls src="../static/img/video_1_ab4777aba9a6472f8efdab48e41afd72.mp4"></video> -->
+            <video width="320" height="550" controls src="../static/img/final_6032e939498e76007104faa1_379999.mp4" style="margin-left: 8%"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
-            <h3 style="text-align: center;">Preenchimento Facial</h3>
-            <br>
-            <!-- <video width="320" height="550" controls src="../static/img/video_1_c916c0af3cf549c794491afa00e43068.mp4" style="margin-left: 5%"></video> -->
+            <h3 style="text-align: center;">Toxina Botulínica</h3>
+            <h3 style="text-align: center;">&</h3>
+            <h3 style="text-align: center;">Microagulhamento</h3>
+            <video width="320" height="550" controls src="../static/img/final_6032eaa38208ae004b9c8d84_977476.mp4" style="margin-left: 11%"></video>
           </div>
         </div>
-
       </div>
     </section>
 
-    <div id="carouselExampleIndicators" class="carousel slide bg-light" data-ride="carousel" style="padding-bottom: 5%">
+    <div id="carouselExampleIndicators" class="carousel slide bg-light" data-ride="carousel" style="padding-bottom: 50px">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block" src="../static/img/IMG_8699.jpeg" alt="First slide" style="width: 20%; margin: 0 auto;">
+        <div class="carousel-item active imagem-carousel">
+          <img class="d-block" src="../static/img/IMG_0204.jpeg" style="margin: 0 auto;">
+          <div class="carousel-caption">
+            <h5>Microagulhamento</h5>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block" src="../static/img/IMG_8699.jpeg" alt="Second slide" style="width: 20%;  margin: 0 auto;">
+        <div class="carousel-item imagem-carousel">
+          <img class="d-block" src="../static/img/DE5E1807-7480-4B30-ABAC-B433420A037D.jpeg" alt="Second slide" style="margin: 0 auto;">
+          <div class="carousel-caption">
+            <h5>Peeling</h5>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block" src="../static/img/IMG_8699.jpeg" alt="Third slide" style="width: 20%;  margin: 0 auto;">
+        <div class="carousel-item imagem-carousel">
+          <img class="d-block" src="../static/img/IMG_4004.jpeg" alt="Third slide" style="margin: 0 auto;">
+          <div class="carousel-caption">
+            <h5>Preenchimento Labial</h5>
+          </div>
+        </div>
+        <div class="carousel-item imagem-carousel">
+          <img class="d-block" src="../static/img/IMG_0743.jpeg" alt="Third slide" style="margin: 0 auto;">
+          <div class="carousel-caption d-md-block">
+            <h5>Laser para Manchas</h5>
+            <H5>Actínicas (Sol)</H5>
+          </div>
+        </div>
+        <div class="carousel-item imagem-carousel">
+          <img class="d-block" src="../static/img/IMG_0657.jpeg" alt="Third slide" style="margin: 0 auto;">
+          <div class="carousel-caption d-md-block">
+            <h5>Bioestimulador de Colágeno</h5>
+          </div>
+        </div>
+        <div class="carousel-item imagem-carousel">
+          <img class="d-block" src="../static/img/IMG_9016.jpeg" alt="Third slide" style="margin: 0 auto;">
+          <div class="carousel-caption d-md-block">
+            <h5>Toxina Botulínica</h5>
+          </div>
+        </div>
+        <div class="carousel-item imagem-carousel">
+          <img class="d-block" src="../static/img/C267F9A1-00EC-427F-A6C4-F767F0C1457F.jpeg" alt="Third slide" style="margin: 0 auto;">
+          <div class="carousel-caption d-md-block">
+            <h5 style="color: black;">Estrias & Cicatriz</h5>
+          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

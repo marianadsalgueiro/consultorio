@@ -1,0 +1,11 @@
+@media (max-width: 700px){
+    .imagem-carousel img{
+        width: 65%;
+    }
+}
+
+@media (min-width: 701px){
+    .imagem-carousel img{
+        width: 40%;
+    }
+}

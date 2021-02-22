@@ -26,6 +26,4 @@ app.config["MAIL_USERNAME"] = "dramarianaboni@gmail.com"
 app.config["MAIL_PASSWORD"] = os.getenv('EMAIL_PASSWORD')
 mail.init_app(app)
 
-print(os.getenv('EMAIL_PASSWORD'))
-
 bootstrap = Bootstrap(app)
