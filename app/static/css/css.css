@@ -9,3 +9,35 @@
         width: 40%;
     }
 }
+
+.masthead{
+    padding: 5rem 0;
+}
+
+@media (max-width: 800px){
+    .botoes{
+        width: 65%;
+    }
+
+    .videos1, .videos2, .videos3{
+        margin-left: 3%;
+    }
+}
+
+@media (min-width: 801px){
+    .botoes{
+        width: 30%;
+    }
+
+    .videos1{
+        margin-left: 5%;
+    }
+
+    .videos2{
+        margin-left: 8%;
+    }
+
+    .videos3{
+        margin-left: 10%;
+    }
+}

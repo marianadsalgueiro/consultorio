@@ -4,17 +4,18 @@
   <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Dra Mariana Boni - Dermatologia Clínica & Estética</title>
 
     <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"> -->
     <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
@@ -24,57 +25,31 @@
 
   </head>
 
-  <body id="page-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="padding: .5rem 105px;"><img class="img-fluid" alt="" style="max-width: 60%;"></a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style="font-weight: bold; color:	#54ffe5" href="#projects">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style="font-weight: bold; color:	#54ffe5" href="#promotions">Dê uma espiadinha</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" style="font-weight: bold; color: 	#54ffe5" href="#signup">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    
+  <body id="page-top">  
     <!-- Header -->
     <!-- <header class="masthead"> -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
+        <br>
+        <div class="mx-auto text-center" style="width: 80%; overflow-x: hidden;">
           {% include "flash.html" %}
-          <br>
-          <br>
-          <br>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5" style="font-weight: bold; color: rgba(255, 255, 255) !important;">Bem-vindos ao meu novo espaço</h2>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5" style="font-weight: bold; color: rgba(255, 255, 255) !important;">Bem-vindos ao meu espaço</h2>
           <h1 class="mx-auto my-0 text-uppercase">Dra Mariana Boni</h1>
           <h1 class="mx-auto my-0 text-uppercase">Dermatologia</h1>
           <h1 class="mx-auto my-0 text-uppercase">Clínica & Estética</h1>
           <br/>
           <br/>
-          <a href="https://wa.me/5521985600001" target="_tab" class="btn btn-primary js-scroll-trigger" style="width: 30%;">Agende Agora</a>
+          <a href="https://wa.me/5521985600001" target="_tab" class="btn btn-primary js-scroll-trigger botoes">Agende Agora</a>
 
           <br>
           <br>
-          <a href="#projects" target="_tab" class="btn btn-primary js-scroll-trigger" style="display: block; width: 30%; margin: 0 auto;">About me</a>
+          <a href="#projects" target="_tab" class="btn btn-primary js-scroll-trigger botoes" style="display: block; margin: 0 auto;">About me</a>
 
           <br>
-          <a href="#promotions" target="_tab" class="btn btn-primary js-scroll-trigger" style="display: block; width: 30%; margin: 0 auto;">Dê uma Espiadinha</a>
+          <a href="#promotions" target="_tab" class="btn btn-primary js-scroll-trigger botoes" style="display: block; margin: 0 auto;">Dê uma Espiadinha</a>
           
           <br>
-          <a href="#signup" target="_tab" class="btn btn-primary js-scroll-trigger" style="display: block; width: 30%; margin: 0 auto;">Contact</a>
+          <a href="#signup" target="_tab" class="btn btn-primary js-scroll-trigger botoes" style="display: block; margin: 0 auto;">Contact</a>
         
         </div>
       </div>
@@ -121,19 +96,19 @@
             <h3 style="text-align: center;">Laser</h3>
             <br>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032db6b8125fc0084fc115b_12286.mp4" style="margin-left: 5%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032db6b8125fc0084fc115b_12286.mp4" class="videos1"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Preenchimento</h3>
             <br>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032ebf6148e4d003dd0f769_87804.mp4" style="margin-left: 8%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032ebf6148e4d003dd0f769_87804.mp4" class="videos2"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Microagulhamento</h3>
             <br>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_603305fb1249090059f5b6fe_987814.mp4" style="margin-left: 10%"></video>
+            <video width="320" height="550" controls src="../static/img/final_603305fb1249090059f5b6fe_987814.mp4" class="videos3"></video>
           </div>
         </div>
         <br>
@@ -210,18 +185,18 @@
             <h3 style="text-align: center;">Depilação a Laser</h3>
             <h3 style="text-align: center;">Axila</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032e17b87f3b0008c6067ad_476101.mp4" style="margin-left: 5%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e17b87f3b0008c6067ad_476101.mp4" class="videos1"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Drug Delivery na Dermatologia</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032dd15bb4200003d50e43f_892208.mp4" style="margin-left: 8%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032dd15bb4200003d50e43f_892208.mp4" class="videos2"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Estrias Brancas & Rosas</h3>
             <br>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032e20b95c4eb008b835356_230325.mp4" style="margin-left: 10%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e20b95c4eb008b835356_230325.mp4" class="videos3"></video>
           </div>
         </div>
         <br>
@@ -232,19 +207,19 @@
             <h3 style="text-align: center;">Revitalização dos</h3>
             <h3 style="text-align: center;">Lábios a Laser</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032e292e0ad8d00aa3cd272_68629.mp4" style="margin-left: 5%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e292e0ad8d00aa3cd272_68629.mp4" class="videos1"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Rejuvenescimento</h3>
             <h3 style="text-align: center;">Colo & Pescoço</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032e36c7a8c73002fa1691c_686664.mp4" style="margin-left: 8%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e36c7a8c73002fa1691c_686664.mp4" class="videos2"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Luz Intensa Pulsada</h3>
             <h3 style="text-align: center;">para Rosácea</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032e3ec971e6f003d4ffa49_238914.mp4" style="margin-left: 10%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e3ec971e6f003d4ffa49_238914.mp4" class="videos3"></video>
           </div>
         </div>
 
@@ -256,18 +231,18 @@
             <h3 style="text-align: center;">Rejuvenescimento</h3>
             <h3 style="text-align: center;">das Pálpebras</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032e48534e6c50029ab3689_491395.mp4" style="margin-left: 5%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e48534e6c50029ab3689_491395.mp4" class="videos1"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Rejuvenescimento Facial</h3>
             <h3 style="text-align: center;">(mais colágeno)</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032e5baaa21ea0082b35dc2_310236.mp4" style="margin-left: 8%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e5baaa21ea0082b35dc2_310236.mp4" class="videos2"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Tratamento dos Vasos</h3>
             <h3 style="text-align: center;">da Face (Rosácea)</h3>
-            <video width="320" height="550" controls src="../static/img/final_6032e6ac2b6fe30072e8c62a_226266.mp4" style="margin-left: 11%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e6ac2b6fe30072e8c62a_226266.mp4" class="videos3"></video>
           </div>
         </div>
 
@@ -278,19 +253,19 @@
             <h3 style="text-align: center;">Microagulhamento</h3>
             <br>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032e73aab586b002f6a4eed_735061.mp4" style="margin-left: 5%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e73aab586b002f6a4eed_735061.mp4" class="videos1"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Estrias</h3>
             <h3 style="text-align: center;">Drug Delivery</h3>
             <br>
-            <video width="320" height="550" controls src="../static/img/final_6032e939498e76007104faa1_379999.mp4" style="margin-left: 8%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032e939498e76007104faa1_379999.mp4" class="videos2"></video>
           </div>
           <div class="col-xl-4 col-lg-3">
             <h3 style="text-align: center;">Toxina Botulínica</h3>
             <h3 style="text-align: center;">&</h3>
             <h3 style="text-align: center;">Microagulhamento</h3>
-            <video width="320" height="550" controls src="../static/img/final_6032eaa38208ae004b9c8d84_977476.mp4" style="margin-left: 11%"></video>
+            <video width="320" height="550" controls src="../static/img/final_6032eaa38208ae004b9c8d84_977476.mp4" class="videos3"></video>
           </div>
         </div>
       </div>
@@ -375,7 +350,6 @@
               </div>
               <button type="submit" class="btn btn-primary mx-auto">Enviar</button>
             </form>
-
           </div>
         </div>
       </div>
