@@ -29,6 +29,10 @@
         font-weight: bold;
     }
 
+    .subtitulo{
+        font-size: 1.0rem !important;
+    }
+
     .titulos{
         padding-top: 15%;
         padding-bottom: 1%;
@@ -59,6 +63,10 @@
     .masthead h1{
         font-size: 3rem;
         letter-spacing: 0.8rem;
+    }
+
+    .subtitulo{
+        font-size: 2.1rem !important;
     }
 
     .titulos{
