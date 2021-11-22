@@ -31,23 +31,23 @@
     }
 
     .card{
-        height: 500px;
+        height: 700px;
     }
 
     .box-grande{
-        height: 620px !important;
+        height: 720px !important;
     }
 
     .box-pequeno{
-        height: 580px !important;
+        height: 680px !important;
     }
 
     .box-grande2{
-        height: 875px !important;
+        height: 895px !important;
     }
 
     .ativosepdo{
-        height: 650px !important;
+        height: 715px !important;
     }
 }
 
