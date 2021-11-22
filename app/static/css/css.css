@@ -7,10 +7,6 @@
         width: 65%;
     }
 
-    .videos-div{
-        text-align: center;
-    }
-
     .masthead h1{
         font-size: 1.5rem;
         letter-spacing: 0;
@@ -19,35 +15,6 @@
 
     .subtitulo{
         font-size: 1.0rem !important;
-    }
-
-    .titulos{
-        padding-top: 15%;
-        padding-bottom: 1%;
-    }
-
-    .titulos-2{
-        padding-top: 18%;
-    }
-
-    .card{
-        height: 700px;
-    }
-
-    .box-grande{
-        height: 720px !important;
-    }
-
-    .box-pequeno{
-        height: 680px !important;
-    }
-
-    .box-grande2{
-        height: 895px !important;
-    }
-
-    .ativosepdo{
-        height: 715px !important;
     }
 }
 
@@ -65,37 +32,24 @@
         font-size: 2.1rem !important;
     }
 
-    .titulos{
-        padding-top: 5%;
-        padding-bottom: 7%;
-    }
-
     .card{
-        height: 800px;
+        height: 60%;
     }
 
     .padding-titulo{
-        padding-bottom: 70px;
+        padding-bottom: 22%;
     }
 
     .padding-titulo2{
-        padding-bottom: 175px;
+        padding-bottom: 10%;
+    }
+
+    .paddingtop{
+        padding-top: 23%;
     }
 
     .padding-titulo3{
-        padding-bottom: 240px;
-    }
-
-    .padding-titulo4{
-        padding-bottom: 40px;
-    }
-
-    .box-grande2{
-        height: 940px !important;
-    }
-
-    .ativosepdo{
-        height: 940px !important;
+        padding-bottom: 30%;
     }
 }
 
