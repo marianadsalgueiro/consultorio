@@ -8,13 +8,18 @@
     }
 
     .masthead h1{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         letter-spacing: 0;
         font-weight: bold;
     }
 
-    .subtitulo{
-        font-size: 1.0rem !important;
+    .crm{
+        color: white;
+        font-family: 'Varela Round';
+        font-size: 0.8rem;
+        background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
 }
 
@@ -26,10 +31,6 @@
     .masthead h1{
         font-size: 3rem;
         letter-spacing: 0.8rem;
-    }
-
-    .subtitulo{
-        font-size: 2.1rem !important;
     }
 
     .card{
@@ -50,6 +51,15 @@
 
     .padding-titulo3{
         padding-bottom: 30%;
+    }
+
+    .crm{
+        color: white;
+        font-family: 'Varela Round';
+        font-size: 1.3rem;
+        background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
 }
 
