@@ -23,7 +23,7 @@
     }
 }
 
-@media (min-width:381px) and (max-width: 800px){
+@media (min-width:381px) and (max-width: 990px){
     .botoes{
         width: 65%;
     }
@@ -44,13 +44,13 @@
     }
 }
 
-@media (min-width: 801px){
+@media (min-width: 991px) and (max-width: 1200px){
     .botoes{
         width: 30%;
     }
 
     .masthead h1{
-        font-size: 3rem;
+        font-size: 1.6rem;
         letter-spacing: 0.8rem;
     }
 
@@ -84,3 +84,42 @@
     }
 }
 
+@media (min-width: 1201px){
+    .botoes{
+        width: 30%;
+    }
+
+    .masthead h1{
+        font-size: 2.3rem;
+        letter-spacing: 0.8rem;
+    }
+
+    .card{
+        height: 60%;
+    }
+
+    .padding-titulo{
+        padding-bottom: 22%;
+    }
+
+    .padding-titulo2{
+        padding-bottom: 10%;
+    }
+
+    .paddingtop{
+        padding-top: 23%;
+    }
+
+    .padding-titulo3{
+        padding-bottom: 30%;
+    }
+
+    .crm{
+        color: white;
+        font-family: 'Varela Round';
+        font-size: 1.3rem;
+        background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
