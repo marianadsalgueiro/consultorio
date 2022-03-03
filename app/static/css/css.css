@@ -82,6 +82,10 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
+
+    .tratamentos{
+        height: 375.7px;
+    }
 }
 
 @media (min-width: 1201px){
@@ -122,4 +126,9 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
+
+    .tratamentos{
+        height: 332.5px;
+    }
 }
+
